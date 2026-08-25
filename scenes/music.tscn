@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://eajaaegohbb0"]
+
+[ext_resource type="AudioStream" uid="uid://bleqpd1ch4m3m" path="res://assets/music/Space II - Dorian Concept (Slowed Version).mp3" id="1_05ggv"]
+
+[node name="Music" type="AudioStreamPlayer2D" unique_id=1372105389]
+stream = ExtResource("1_05ggv")
+autoplay = true
+bus = &"music"
